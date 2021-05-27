@@ -328,7 +328,7 @@ i {
 
 .activity h3 {
     padding-left: 1.5rem;
-    height: 1rem;
+    height: 1.2rem;
 }
 
 /* FOOTER */
@@ -336,7 +336,7 @@ i {
 footer {
     background-color: var(--gray);
     display: flex;
-    padding: 1rem;
+    padding: 2rem;
     padding-left: 3rem;
 }
 
