@@ -71,7 +71,9 @@ nav a:hover, nav a:focus {
 
 #search h3 {
     margin-bottom: 1rem;
+    font-weight: normal;
 }
+
 
 
 /* FORM  */
@@ -175,7 +177,7 @@ form input[type=submit] {
     margin-right: 3rem;
 }
 
-#hébergements h3:first-child {
+#hébergements h3 {
     font-size: 1.3rem;
     margin-bottom: 2.8rem;
 }
@@ -212,6 +214,13 @@ form input[type=submit] {
 
 /* DESCRIPTION */
 
+.description h3 {
+    margin-bottom: 0.5rem !important;
+}
+
+.description p {
+   margin-bottom: 0.5rem;
+}
 
 /* LIEN AFFICHER PLUS */
 
@@ -252,17 +261,11 @@ form input[type=submit] {
     box-shadow: 5px 5px 5px rgba(84, 84, 85, 0.1);
 }
 
-#populaires .item .img_container {
-    width: 38%;
-    height: 11rem;
-    border-radius: 1rem;
-    padding-right: 2rem;
 
-}
-
-#populaires .item .img_container img {
-    width: 100%;
-    height: 11rem;
+#populaires .item img {
+    width: 30%;
+    height: 10rem;
+    margin-right: 1rem;
     border-radius: 1rem 0 0 1rem;
     object-fit: cover;
 }
@@ -270,19 +273,16 @@ form input[type=submit] {
 #populaires .item .description {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
     padding-top: 1rem;
 }
 
-#populaires .item .description:last-child {
-    
-}
 
 /* STARS */
 
-
-
+#populaires .stars {
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
 
 i {
     color: var(--blue);
