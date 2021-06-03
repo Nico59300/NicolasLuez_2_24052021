@@ -2,6 +2,8 @@
 
     html, body {
         width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     
@@ -51,8 +53,14 @@
     }
 
     .container {
+        width: 100%;
         flex-direction: column-reverse;
         padding-left: 0;
+    }
+
+    #hébergements {
+        width: 100%;
+        margin-right: 0;
     }
 
     #hébergements .items_container {
@@ -76,6 +84,7 @@
     }
 
     #activities_container {
+        width: 100%;
         flex-direction: column;
         padding: 1rem;
     }
@@ -83,6 +92,7 @@
     #activities .activity {
         width:100%;
         margin: 0;
+        margin-bottom: 1rem;
     }
 
     footer {
