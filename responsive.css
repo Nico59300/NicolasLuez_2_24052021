@@ -1,12 +1,5 @@
 @media screen and (max-width: 425px) {
 
-    html, body {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    
 
     header{
     }
@@ -35,13 +28,13 @@
     }
 
     #search {
-        max-width: 100%;
+        width: 100vw;
         margin-top: 2rem;
         padding-bottom: 1rem;
     }
 
     form {
-        width: 100%;
+        width: 100vw;
     }
 
     .filters {
@@ -53,40 +46,38 @@
     }
 
     .container {
-        width: 100%;
         flex-direction: column-reverse;
         padding-left: 0;
     }
 
     #hébergements {
-        width: 100%;
+        width: 100vw;
         margin-right: 0;
+        background-color: white;
     }
 
     #hébergements .items_container {
         flex-direction: column;
-        padding: 1rem;
     }
 
-    #hébergements .items_container .item {
-        width: 100%;
+    #hébergements .items_container .item  {
+        width: 90%;
     }
 
     #populaires {
-        width: 100%;
+        width: 100vw;
         border-radius: 0;
         padding: 1rem;
         margin-right: 0;
     }
 
     #populaires .item {
-        width: 100%;
+        width: 100vw;
     }
 
     #activities_container {
         width: 100%;
         flex-direction: column;
-        padding: 1rem;
     }
 
     #activities .activity {
