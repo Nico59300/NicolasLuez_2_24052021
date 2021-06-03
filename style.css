@@ -204,8 +204,9 @@ form input[type=submit] {
 
 #hébergements .items_container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
 /* ITEM */
@@ -297,8 +298,6 @@ form input[type=submit] {
     justify-content: space-around;
 }
 
-#populaires .item .description h3 {
-} 
 
 
 
@@ -363,6 +362,7 @@ i {
 
 .activity h3 {
     height: 1.2rem;
+    padding-left: 1rem;
 }
 
 /* FOOTER */
