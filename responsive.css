@@ -1,7 +1,7 @@
 @media screen and (max-width: 425px) {
 
 
-    html, body,header, #search, .container, #populaires, #activities, footer{
+    html, body,header, #search, .container, footer{
         max-width: 425px;
     }
 
@@ -33,7 +33,8 @@
     }
 
     form {
-        width: 100vw;
+        width: auto;
+        max-width: 425px;;
     }
 
     .filters {
@@ -49,13 +50,13 @@
     }
 
     .container {
+        width:100%;
         flex-direction: column-reverse;
-        width:100vw;
         padding-left: 0;
     }
 
     #hébergements {
-        width: 100vw;
+        width:auto;
         margin-right: 0;
         background-color: white;
     }
@@ -68,14 +69,19 @@
         width: auto;
     }
 
+    #hébergements .item img {
+        width: auto;
+    }
+
     #populaires {
-        width:100%;
+        width:auto;
         display: flex;
         flex-direction: column;
         border-radius: 0;
     }
 
     #populaires .item  {
+        width:auto;
         
     }
 
