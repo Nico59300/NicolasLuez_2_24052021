@@ -114,6 +114,8 @@ form input[type=search] {
     height: 100%;;
     padding: 1rem;
     border: 1px solid var(--gray);
+    font-weight: bold;
+    color: black;
 
 }
 
@@ -127,8 +129,6 @@ form  button {
 
 form button i {
     display: none !important;
-    color: white;
-    border-radius: 0 0.75rem 0.75rem 0;
 }
 
 
