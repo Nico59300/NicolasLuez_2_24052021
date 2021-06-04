@@ -50,10 +50,12 @@
 
     .container {
         flex-direction: column-reverse;
+        width:100vw;
         padding-left: 0;
     }
 
     #hébergements {
+        width: 100vw;
         margin-right: 0;
         background-color: white;
     }
@@ -62,15 +64,19 @@
         flex-direction: column;
     }
 
-    
-
-    #populaires {
-        border-radius: 0;
-        width:100vw
+    #hébergements .item {
+        width: auto;
     }
 
-    #populaires .item img {
-        width: 30%;
+    #populaires {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    #populaires .item  {
+        
     }
 
     #activities_container {
