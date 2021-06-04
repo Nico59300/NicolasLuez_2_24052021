@@ -36,6 +36,13 @@
         width: auto;
         max-width: 425px;;
     }
+    form button span {
+        display: none;
+    }
+    form button i {
+        display: block!important;
+        background-color: var(--blue);
+    }
 
     .filters {
         flex-direction: column;
@@ -97,4 +104,7 @@
     footer {
         flex-direction: column;
     }
+
+    footer ul {
+        width: 100%;
 }

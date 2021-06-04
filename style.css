@@ -114,12 +114,18 @@ form input[type=search] {
 
 }
 
-form input[type=submit] {
+form  button {
     background-color: var(--blue);
     color: white;
     border: none;
     border-radius: 0 0.75rem 0.75rem 0;
     padding: 0 1rem 0 1rem;
+}
+
+form button i {
+    display: none !important;
+    color: white;
+    border-radius: 0 0.75rem 0.75rem 0;
 }
 
 
@@ -379,7 +385,7 @@ footer ul {
 }
 
 footer ul li {
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 footer ul li:first-child {
