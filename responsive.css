@@ -4,37 +4,52 @@
     html, body,header, #search, .container, footer{
         max-width: 425px;
     }
+    
+    header {
+        flex-direction: column;
+    }
 
-   
+    .logo_container {
+        padding: 1rem 0 0 1rem;
+    }
 
     .links_container {
         flex-wrap: wrap;
+        width:100%;
     }
 
     nav {
+        width:100%;
         order: 3;
-        position: absolute;
-        left: 1rem;
-        top: 50px;
+        display: flex;
+        flex-direction: row;
     }
 
     nav a {
-        height: auto;
-        padding: 1rem;
+        width: 50%;
+        padding-top: 1rem;
+        margin-right: 0;
         border-top: none;
         border-bottom: 2px solid var(--gray);
+        text-align: center;
     }
 
-    
+    .register {
+        position: absolute;
+        top: -1.2rem;
+        right: 1rem;
+    }
 
     #search {
-        margin-top: 2rem;
+        width: auto;
+        margin-top: 1rem;
         padding-bottom: 1rem;
     }
 
     form {
         width: auto;
-        max-width: 425px;;
+        max-width: 425px;
+        padding-right: 1rem;
     }
     form button span {
         display: none;
@@ -48,6 +63,10 @@
         flex-direction: column;
     }
 
+    .filters h2 {
+        padding-bottom: 1rem;
+    }
+
     .filters_container {
         flex-wrap: wrap;
     }
@@ -57,19 +76,21 @@
     }
 
     .container {
-        width:100%;
+        padding: 0;
+        width: auto;
         flex-direction: column-reverse;
-        padding-left: 0;
     }
 
     #hébergements {
         width:auto;
-        margin-right: 0;
+        margin: 0;
+        padding: 1rem;
         background-color: white;
     }
 
     #hébergements .items_container {
         flex-direction: column;
+        width:100%;
     }
 
     #hébergements .item {
@@ -81,10 +102,17 @@
     }
 
     #populaires {
-        width:auto;
+        width: 100vw;
+        padding:1rem;
+        left: 0;
         display: flex;
         flex-direction: column;
         border-radius: 0;
+    }
+
+    #populaires header {
+        flex-direction: row;
+
     }
 
     #populaires .item  {
@@ -101,10 +129,17 @@
         margin-bottom: 1rem;
     }
 
+    #activities .activity img{
+        height: 10rem;
+    }
+
     footer {
         flex-direction: column;
+        width: auto;
     }
 
     footer ul {
         width: 100%;
+}
+
 }
