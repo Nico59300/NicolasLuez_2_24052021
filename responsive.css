@@ -1,11 +1,11 @@
 @media screen and (max-width: 425px) {
 
 
-    header{
+    html, body,header, #search, .container, #populaires, #activities, footer{
+        max-width: 425px;
     }
 
-    .logo_container {
-    }
+   
 
     .links_container {
         flex-wrap: wrap;
@@ -19,16 +19,15 @@
     }
 
     nav a {
+        height: auto;
         padding: 1rem;
         border-top: none;
         border-bottom: 2px solid var(--gray);
     }
 
-    .register {
-    }
+    
 
     #search {
-        width: 100vw;
         margin-top: 2rem;
         padding-bottom: 1rem;
     }
@@ -45,13 +44,16 @@
         flex-wrap: wrap;
     }
 
+    .filters_container div {
+        margin-bottom: 1rem;
+    }
+
     .container {
         flex-direction: column-reverse;
         padding-left: 0;
     }
 
     #hébergements {
-        width: 100vw;
         margin-right: 0;
         background-color: white;
     }
@@ -60,28 +62,22 @@
         flex-direction: column;
     }
 
-    #hébergements .items_container .item  {
-        width: 90%;
-    }
+    
 
     #populaires {
-        width: 100vw;
         border-radius: 0;
-        padding: 1rem;
-        margin-right: 0;
+        width:100vw
     }
 
-    #populaires .item {
-        width: 100vw;
+    #populaires .item img {
+        width: 30%;
     }
 
     #activities_container {
-        width: 100%;
         flex-direction: column;
     }
 
     #activities .activity {
-        width:100%;
         margin: 0;
         margin-bottom: 1rem;
     }
