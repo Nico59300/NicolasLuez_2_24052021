@@ -190,6 +190,7 @@
 
     .filters_container div  {
         font-size: 0.85rem;
+        padding-right: 0;
     }
 
 
@@ -231,3 +232,44 @@
         margin-bottom: 0;
         width: 35%;
     }
+
+    #activities {
+        width: auto;
+        padding: 1rem
+    }
+
+    #activities_container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+
+    #activities_container .activity {
+        width: 45%;
+        margin: 1rem;
+    }
+
+    #activities_container .activity:last-child {
+        order: 2;
+    }
+
+   
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        order: 3;
+    }
+
+    .wrapper .activity {
+        width: 45%;
+        margin-right: 0;
+    }
+
+    #activities_container .activity img, .wrapper .activity img {
+        height: 10rem;
+    }
+
+}
