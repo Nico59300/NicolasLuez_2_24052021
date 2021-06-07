@@ -38,7 +38,10 @@
         position: absolute;
         top: -1.2rem;
         right: 0;
+        padding-right: 0;
     }
+
+    
 
     #search {
         width: auto;
@@ -190,7 +193,7 @@
 
     .filters_container div  {
         font-size: 0.85rem;
-        padding-right: 0;
+        padding-right: 1rem;
     }
 
 
@@ -220,17 +223,17 @@
         justify-content: center;
     }
 
-    #populaires .items_container {
-        width: aut
-    }
 
     #populaires .items_container .item {
         width: auto;
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 1rem;
     }
 
     #populaires .item img {
         margin-bottom: 0;
-        width: 35%;
+        width: 30%;
     }
 
     #activities {
